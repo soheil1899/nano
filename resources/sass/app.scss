@@ -1,0 +1,66 @@
+// Fonts
+@import url('https://fonts.googleapis.com/css?family=Nunito');
+@import url('https://fonts.googleapis.com/css?family=Raleway&display=swap');
+
+// Variables
+@import 'variables';
+// Bootstrap
+@import '~bootstrap/scss/bootstrap';
+@import '~vue-select/dist/vue-select.css';
+// Font Awesome
+@import '~@fortawesome/fontawesome-free/scss/fontawesome';
+@import '~@fortawesome/fontawesome-free/scss/regular';
+@import '~@fortawesome/fontawesome-free/scss/solid';
+@import '~@fortawesome/fontawesome-free/scss/brands';
+
+
+@font-face {
+    font-family: 'IranSanse';
+    src: url('/admin/fonts/IranSanse.eot'),
+    url('/admin/fonts/IranSanse.woff') format('woff'), /* Pretty Modern Browsers */
+    url('/admin/fonts/IranSanse.ttf') format('truetype');/* Safari, Android, iOS */
+}
+
+
+.widthfit{
+    width: fit-content;
+}
+body{
+    background-color: #fdfdfd;
+}
+.header-serchbtn{
+    border-radius: 50%;
+}
+.header-serchinput{
+    border-radius: 40px;
+}
+.vollkorn-font{
+    font-family: 'Raleway';
+}
+.dropdown-toggle::after {
+    display:none;
+}
+.dropdown-menu{
+    border: none;
+    box-shadow: 0 5px 10px 0 #ccc;
+}
+.font-16{
+    font-size: 16px;
+}
+.suport-bar{
+    background-color: #f8f8f8;
+}
+.footerpage{
+    background-color: #333333;
+    color: #fff;
+}
+.titlefooter{
+    border-left: 3px solid #EB3300;
+}
+.footerbottom{
+    background-color: #2E2E2E;
+    color: #ddd;
+}
+.footerbottom a{
+    text-decoration: none;
+}
